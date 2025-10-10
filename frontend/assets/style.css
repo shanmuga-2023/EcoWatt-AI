@@ -1,0 +1,36 @@
+body {
+    background-color: #f5fff5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #2E7D32;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #e8f5e9;
+}
+
+div.stButton > button:first-child {
+    background-color: #43a047;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+div.stButton > button:first-child:hover {
+    background-color: #2e7d32;
+    color: white;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(180deg, #e8f5e9 0%, #ffffff 60%);
+}
+
+footer, header {visibility: hidden;}
+
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
